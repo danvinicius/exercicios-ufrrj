@@ -1,7 +1,9 @@
+// 3.
+
 #include <stdio.h>
 #include <string.h>
 
-main()
+int main()
 {
     int linhas, contador, totalCaracteresPorLinha, tamanhoCentralizado;
     contador = 0;
