@@ -35,7 +35,7 @@ main()
     }
     media = (tot / qtdNumerosLidos);
     printf("Voce digitou %d numeros\n", qtdNumerosLidos);
-    printf("A media dos numeros eh %.1f\n", media);
+    printf("A media dos numeros é %.1f\n", media);
     printf("O maior numero lido foi %d e o menor foi %d\n", maior, menor);
     return 0;
 }
