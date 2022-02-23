@@ -73,7 +73,7 @@ float main()
             printf("A raíz quadrada de %.0f é %.2f \n", num1, rad);
             break;
         case 8:
-            printf("Bye-bye (o◡o)/");
+            printf("Bye-bye ≧ ◠‿◠ ≦");
             break;
         default:
             break;
