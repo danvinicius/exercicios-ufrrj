@@ -39,7 +39,6 @@ int main()
     {
         if (opcao == 5)
             break;
-        printf("=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
         printf("Digite um número [negativo para parar]: \n");
         scanf("%d", &m);
         if (m < 0)
@@ -76,14 +75,17 @@ int main()
             {
             case 1:
                 divisoresM = divisores(m);
+                printf("=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
                 printf("(%d divisores)\n", divisoresM);
                 break;
             case 2:
                 fatorialM = fatorial(m);
+                printf("=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
                 printf("O fatorial de %d é %d\n", m, fatorialM);
                 break;
             case 3:
                 somaInteirosM = somaDosInteiros(m);
+                printf("=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
                 printf("A soma dos inteiros de 1 até %d é %d\n", m, somaInteirosM);
                 break;
             default:

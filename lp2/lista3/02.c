@@ -3,28 +3,25 @@
 
 float yGreaterThan0(float x)
 {
-    float total = 0;
+    float y = 0;
     for (int i = 1; i <= 100; i++)
-    {
-        total += (x + i) / i;
-    }
-
-    return total;
+        y += (x + i) / i;
+    return y;
 }
 
 float yLessEquals0(float x)
 {
-    float total = 0;
+    float y = 0;
     int divisor = 100;
     for (int i = 1; i <= 100; i++)
     {
         if (i % 2 != 0)
-            total += (pow(x, 2) + i) / divisor;
+            y += (pow(x, 2) + i) / divisor;
         else
-            total -= (pow(x, 2) + i) / divisor;
+            y -= (pow(x, 2) + i) / divisor;
         divisor--;
     }
-    return total;
+    return y;
 }
 
 int main()
