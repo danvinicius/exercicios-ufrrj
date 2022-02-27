@@ -1,3 +1,5 @@
+"""Solicitar vários valores inteiros e apos o usuário digitar qualquer valor
+negativo, o programa deverá mostrar o maior e o menor valor digitado."""
 continua = True
 numeros = []
 while continua == True:

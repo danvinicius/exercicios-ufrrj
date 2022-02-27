@@ -1,3 +1,10 @@
+/*
+Leia um número inteiro menor do que 10 e imprima todos os seus múltiplos
+dentro do intervalo [1, 100], em ordem decrescente. Ex:
+num = 8
+Múltiplos = 88, 80, 72, 64, 56, 48, 40, 32, 24, 16, 8, 1
+*/
+
 #include <stdio.h>
 
 int main()

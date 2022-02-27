@@ -1,5 +1,11 @@
-/*4.
-a precisão do C diminui com números (x) acima de 10
+/*
+O valor do seno pode ser obtido com através da série a seguir:
+
+sen x = X - X3 + X5 - X7 + . . .
+3 5 7
+
+Escreva um programa que tabele os valores para um dado valor de X
+(escolhido pelo usuário), de 10 a 20 termos.
 */
 
 #include <stdio.h>

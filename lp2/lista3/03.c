@@ -1,3 +1,13 @@
+/*
+Escrever um programa que lê um número não determinado de valores
+para m, todos inteiros e positivos, um de cada vez. Se m for par, verificar
+quantos divisores m possui, imprimindo essa informação. Se m for ímpar
+e menor do que 10, calcular e escrever o fatorial de m. Se m for ímpar e
+maior ou igual a 10, calcular e imprimir a soma dos inteiros de 1 até m.
+O programa deverá ser desenvolvido utilizando um menu de opções e
+funções para cada opção de m.
+*/
+
 #include <stdio.h>
 
 int fatorial(int n)

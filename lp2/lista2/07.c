@@ -1,3 +1,15 @@
+/*
+Escreva um programa que informe a quantidade total de calorias de uma
+refeição, a partir da escolha dos itens do cardápio, que consta de um prato
+principal, uma bebida e uma sobremesa, segundo a tabela abaixo:
+
+PRATO PRINCIPAL          BEBIDA                          SOBREMESA
+1-Vegetariano: 180 cals  1 - Chá (lata): 80 cals         1 - Abacaxi: 75 cals
+2-Peixe: 230 cals        2 - Suco de laranja: 150 cals   2 - Sorvete diet: 110 cals
+3-Frango: 250 cals       3-  Suco de melão: 70 cals      3 - Mousse diet: 60 cals
+4–Carne: 350 cals        4 - Refrigentante diet: 2 cals  4 - Mousse chocolate: 250 cals
+*/
+
 #include <stdio.h>
 
 int main()

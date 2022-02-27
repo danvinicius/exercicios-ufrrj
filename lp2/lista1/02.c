@@ -1,4 +1,12 @@
-// 2.
+/*
+Implemente uma calculadora que apresente as seguintes funções (essas
+deverão ser apresentadas ao usuário do programa): soma, subtração,
+multiplicação, divisão, exponenciação (xy
+
+), log(x) e raiz quadrada. Atenção: o
+programa só deverá ser encerrado quando o usuário escolher a opção “fim”.
+(Pesquise o nome e sintaxe das funções matemáticas em C).
+*/
 
 #include <stdio.h>
 #include <math.h>

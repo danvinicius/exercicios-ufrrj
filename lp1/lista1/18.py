@@ -1,3 +1,5 @@
+"""Solicitar vários valores, e quando o usuário digitar um valor negativo, o
+programa mostrar a soma de todos os valores digitados e termina sua execução."""
 continua = True
 numeros = []
 somatorio = 0

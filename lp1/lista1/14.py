@@ -1,3 +1,5 @@
+"""Solicite dois valores inteiros ao usuário e mostre todos os valores inteiros,
+iniciando no valor menor até o valor maior, inclusive."""
 n1 = int(input("Digite o primeiro número: "))
 n2 = int(input("Digite o segundo número: "))
 

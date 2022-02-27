@@ -1,4 +1,8 @@
-// 1.
+/*
+Faça um programa em C que leia vários números até encontrar o número
+999. A seguir, imprima a quantidade de números lidos, a média dos números,
+o maior e o menor número encontrado.
+*/
 
 #include <stdio.h>
 

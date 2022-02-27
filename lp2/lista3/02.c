@@ -1,3 +1,11 @@
+/*
+Escreva um programa que contenha uma função que receba x como
+parâmetro e retorne um valor de Y dado que:
+
+Y = (x+1)/1 + (x+2)/2 + ... + (x+100)/100, se x > 0
+Y = (x²+1)/100 - (x²+2)/99 + ... - (x²+100)/1, se x <= 0
+*/
+
 #include <stdio.h>
 #include <math.h>
 

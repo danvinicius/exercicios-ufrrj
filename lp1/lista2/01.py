@@ -1,12 +1,16 @@
-# solução 1
-# def fatorial(n):
-#     if n == 1:
-#         return 1
-#     else:
-#         return n * fatorial(n - 1)
+"""Faça o algorítimo, o fluxograma e o programa para calcular o fatorial de um dado número
+inteiro dado pelo usuário."""
 
-# num = int(input("Digite um número: "))
-# print(fatorial(num))
+
+"""solução 1
+ def fatorial(n):
+     if n == 1:
+         return 1
+     else:
+         return n * fatorial(n - 1)
+
+ num = int(input("Digite um número: "))
+ print(fatorial(num))"""
 
 # solução 2
 num = int(input("Digite um número: "))

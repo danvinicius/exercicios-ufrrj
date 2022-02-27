@@ -1,3 +1,9 @@
+/*
+Entre com a idade de várias pessoas (finalize a leitura com um número
+negativo) e imprima a quantidade de pessoas que tinham mais de 21 anos e a
+média de idade das pessoas com mais de 60.
+*/
+
 #include <stdio.h>
 
 int main()

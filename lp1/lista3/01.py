@@ -1,3 +1,12 @@
+"""Sabendo-se que o polinômio: ax2 + bx + c = 0 é resolvido com a fórmula de Bhaskara, peça ao
+usuário os coeficientes a, b e c e calcule as raízes do polinômio. O programa deve para caso o usuário
+solicite, após o cálculo das raízes, digitando a tecla <s>, tanto em maiúscula quanto em minúscula para
+realizar um novo cálculo.
+Fórmula de Bhaskara:
+
+x = (-b±√b²-4ac)/2a
+"""
+
 continua = True
 while continua:
     a = int(input("Digite o valor de a: "))

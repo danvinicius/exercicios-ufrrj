@@ -1,3 +1,7 @@
+"""Solicitar dois números inteiros e mostrar ao usuário o resultado da soma,
+subtração do maior pelo menor, da multiplicação e da divisão do maior pelo
+menor. Na divisão, caso o segundo valor seja 0, informar que não será possível a
+divisão."""
 n1 = int(input("Digite o primeiro número: "))
 n2 = int(input("Digite o segundo número: "))
 

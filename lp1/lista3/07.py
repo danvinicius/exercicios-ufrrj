@@ -1,3 +1,5 @@
+"""Elabore um algoritmo que dado um valor binário, transforme para a representação decimal."""
+
 binario = input("Digite um número em binário: ")
 binarioArray = []
 for algarismo in binario:

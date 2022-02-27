@@ -1,3 +1,10 @@
+/*
+Dado um país A, com 5.000.000 de habitantes e taxa de natalidade de 3% ao
+ano, e um país B, com 7.000.000 de habitantes e taxa de natalidade de 2% ao
+ano, calcule e imprima o tempo necessário para que a população do país A
+ultrapasse a população do país B.
+*/
+
 #include <stdio.h>
 
 int main()

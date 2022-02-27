@@ -1,4 +1,14 @@
-// 3.
+/*
+Faça um programa em C que leia um número N e imprima o N linhas no
+formato abaixo. Por exemplo: foi lido o número 5 então vou imprimir as
+seguintes 5 linhas:
+
+    *
+   ***
+  *****
+ *******
+*********
+*/
 
 #include <stdio.h>
 #include <string.h>

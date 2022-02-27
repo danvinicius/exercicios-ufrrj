@@ -1,3 +1,5 @@
+"""Faça o algorítimo, o fluxograma e o programa para calcular a distância entre dois pontos do
+plano XY."""
 xa = int(input("Digite o valor de xa: "))
 xb = int(input("Digite o valor de xb: "))
 ya = int(input("Digite o valor de ya: "))

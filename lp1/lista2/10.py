@@ -1,3 +1,7 @@
+"""Faça o algorítimo, o fluxograma e o programa para ler um nome de uma pessoa e colocar a
+primeira letra de cada nome em maiúscula"""
+
+
 def toUpper(nome):
     diff = ord("a") - ord("A")
     if ord(nome[0]) >= 97 and ord(nome[0]) <= 122:
@@ -14,5 +18,6 @@ def toUpper(nome):
                     + nome[contador + 2 :]
                 )
     return nome
+
 
 print(toUpper("daniel vinicius"))

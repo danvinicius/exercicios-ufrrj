@@ -1,3 +1,12 @@
+/*
+Leia um conjunto de números inteiros, até que um número negativo seja
+digitado. Ao final, calcule e imprima:
+a) A quantidade de números válidos lida
+b) O percentual de números pares
+c) A média dos números ímpares
+d) O maior e o menor número lido
+*/
+
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,17 @@
+/*
+Escreva um programa que implemente uma calculadora com o seguinte
+menu de opções (use uma estrutura de repetição que só será encerrada
+quando o usuário escolher a opção FIM), onde TODAS as opções
+deverão ser implementadas usando uma FUNÇÃO RECURSIVA:
+1) Fatorial de N
+2) XY (XY = X*XY-1
+)
+
+3) X*Y (usando o método de somas sucessivas) (X*Y = X+(X*Y-1) )
+4) X mod Y (X=X-Y enquanto X for maior do que Y)
+5) Sequência de N termos de Fibonacci (Ni= Ni-1+Ni-2)
+*/
+
 #include <math.h>
 #include <stdio.h>
 

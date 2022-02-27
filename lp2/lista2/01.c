@@ -1,3 +1,8 @@
+/*
+Entre com uma lista de números inteiros positivos (finalize a leitura com um
+número negativo) e, para cada número lido, imprima todos os seus divisores.
+*/
+
 #include <stdio.h>
 
 int main()

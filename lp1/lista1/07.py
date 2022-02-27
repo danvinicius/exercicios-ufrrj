@@ -1,3 +1,4 @@
+# Solicitar dois números inteiros e mostrar qual é o menor.
 n1 = int(input("Digite o primeiro número: "))
 n2 = int(input("Digite o segundo número: "))
 

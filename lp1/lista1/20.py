@@ -1,3 +1,6 @@
+"""Solicitar do usuário o nome e 4 notas de uma aluno, calcule a média final e
+mostre a situação do aluno está aprovado ou não, sabendo que a média limite
+para reprovação é 6,0."""
 nome = input("Digite o nome do aluno: ")
 
 nota1 = float(input(f"Digite a primeira nota de {nome}: "))

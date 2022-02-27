@@ -1,3 +1,5 @@
+"""Repita o exercício acima para que ele execute até que o usuário digite 'N' a
+pergunta: 'Deseja calcular outra média? (S/N)'."""
 continua = True
 while continua == True:
     nome = input("Digite o nome do aluno: ")

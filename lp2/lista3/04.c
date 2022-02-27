@@ -1,3 +1,16 @@
+/*Faça um programa que leia uma quantidade indeterminada de números
+reais positivos x até que o usuário digite um número negativo ou zero.
+Escreva uma função chamada func() que deverá receber x como
+parâmetro e retornar um valor real, de acordo com a definição abaixo.
+Além da função func(), cada opção de x deverá ser calculada em uma
+nova subrotina (ex: se x>=10, será chamada, de dentro de func(x) a
+subrotina xless10(x), que retorna o valor da primeira expressão:
+
+func(x) = (√x-10)/2, se x >= 10
+func(x) = (√x²+1)/2, se x <= 4
+func(x) = x³/(x²-16), se 4 < x < 10
+*/
+
 #include <math.h>
 #include <stdio.h>
 float xGreaterEquals10(float x)
