@@ -1,3 +1,7 @@
+/*Escreva um programa em C que descubra o maior elemento de um
+conjunto de N números e quantos valores iguais a este maior existem
+no conjunto.*/
+
 #include <stdio.h>
 
 int main()

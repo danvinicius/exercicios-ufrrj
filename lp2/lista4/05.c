@@ -1,3 +1,8 @@
+/*Escreva um programa que preencha com valores reais uma matriz
+M[4,5]. Em seguinda, calcule e imprima a matriz DOBRO [4, 5], onde
+cada elemento é o dobro do elemento da mesma posição em M.
+Finalmente, calcule e imprima a matriz SOMA[4, 5], calculada pela
+fórmula: SOMA = M + DOBRO.*/
 #include <stdio.h>
 
 int main()

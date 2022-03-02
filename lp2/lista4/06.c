@@ -1,3 +1,7 @@
+/*Escreva um programa que preencha com valores inteiros a matriz A[3,5]
+e imprima seu conteúdo. Em seguida, calcule e imprima o vetor
+SOMA_LINHA, onde cada elemento do vetor corresponde à soma dos
+elementos de uma linha da matriz A.*/
 #include <stdio.h>
 
 int main()

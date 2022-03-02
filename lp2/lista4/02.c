@@ -1,3 +1,7 @@
+/*Leia dois vetores, um preenchido com valores sequenciais de 0 a 9 e
+outro com valores sequenciais de 10 a 19, e intercale-os num terceiro
+vetor formando uma nova variável. Mostre o vetor obtido, imprimindo
+seus elementos na ordem inversa.*/
 #include <stdio.h>
 int main()
 {

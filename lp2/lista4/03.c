@@ -1,3 +1,8 @@
+/*Tentando descobrir se um dado era viciado, um dono de cassino
+honesto o lançou N vezes. Dados os N resultados dos lançamentos,
+determinar o número de ocorrências de cada face e a face que saiu o
+maior número de vezes. Use um único vetor para armazenar as
+contagens de cada face.*/
 #include <stdio.h>
 
 int main()
