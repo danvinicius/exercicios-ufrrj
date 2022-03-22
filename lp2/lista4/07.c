@@ -16,7 +16,7 @@ int main()
     int contadorVogal = 0;
 
     printf("Digite seu texto: \n");
-    scanf("%[^\n]", &texto); // vai ler até achar enter
+    gets(texto); // vai ler até achar enter
     for (int i = 0; i < strlen(texto); i++)
     {
 
