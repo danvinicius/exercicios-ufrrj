@@ -1,3 +1,17 @@
+/*
+Faça um programa em C que leia um vetor de 30 inteiros e implemente as
+funções a seguir, utilizando, OBRIGATORIAMENTE, ponteiros e passagem de
+parâmetros por referência:
+
+a. void zeraPares (int * vet): recebe um vetor e troca todos os
+números pares contidos nele pelo zero.
+b. void dobra (int * vet): recebe um vetor e multiplica todos os seus
+elementos por dois.
+c. void soma (int * vet1, int * vet2): recebe dois vetores de inteiros
+e soma cada para de elementos de mesmo índice, colocando o
+resultado no primeiro vetor.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
