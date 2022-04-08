@@ -1,3 +1,15 @@
+/*
+Escreva um programa que cria um tipo de registro (usando typedef) que define uma
+data, formada pelos campos DIA, MÊS e ANO. Escreva também as funções:
+• INICIALIZA, que recebe valores de dia, mês e ano, além de um registro do tipo
+data, passado por referência e atribui esses valores aos campos do registro;
+• VALIDA, que recebe o registro data, passado por valor, e verifica se os valores
+de dia, mês e ano do registro são válidos; e
+• IMPRIME, que recebe o registro data, passado por valor, e imprime seus campos.
+Dentro da função main, declare uma variável do tipo data e chame cada uma das funções
+descritas acima.
+*/
+
 #include <stdio.h>
 typedef struct
 {

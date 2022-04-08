@@ -1,3 +1,29 @@
+/*
+Escreva um programaa que implemente o seguinte menu de opções:
+-> CRIAR DISCIPLINA (esta opção atribui código e nome à disciplina, além de
+inicializar os campos MATRÍCULA dos alunos, atribuindo a eles o valor zero).
+-> INCLUIR ALUNO (verifica antes se há vagas na turma, procurando por um
+elemento do vetor TURMA tal que o campo MATRICULA do ALUNO seja igual
+a zero)
+-> EXCLUIR ALUNO (dado um número de matrícula de um aluno, procurar pelo
+mesmo e trocar o valor do campo MATRICULA para zero)
+-> LISTAR ALUNOS (todos os dados, de todos os alunos da disciplina)
+-> CALCULAR CR MÉDIO dos alunos inscritos na disciplina
+-> IMPRIMIR BOLETIM de alunos da disciplina (imprimindo um relatório onde
+conste a relação de todos os alunos, seus respectivos cursos, números de matrícula,
+total de faltas e nota na disciplina.
+-> FECHAR DISCIPLINA (atribui para os campos código e nome o valor ‘ ‘ (ou
+ASCII=32) e, para os campos MATRÍCULA dos alunos, o valor zero).
+-> SAIR
+OBSERVAÇÕES:
+-> Uma DISCIPLINA é definida por uma estrutura contendo os campos:
+CÓDIGO, NOME e TURMA.
+-> TURMA é um vetor de 40 elementos do tipo ALUNOSMAT.
+-> Um ALUNOMAT é um registro, formado pelos campos ALUNO, NOTAS e
+FALTAS.
+-> O campo ALUNO é um registro, formado pelos campos NOME, IDADE,
+CURSO, CR e MATRÍCULA.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
