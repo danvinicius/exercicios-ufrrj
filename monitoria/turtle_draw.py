@@ -1,6 +1,6 @@
 import turtle
 
-palavra = input("Digite uma palavra: ")
+palavra = input("Digite uma palavra: ").lower()
 
 bob = turtle.Turtle()
 bob.shape("turtle")
@@ -489,6 +489,11 @@ def z():
     bob.forward(20)
 
 
+def esp():
+    bob.penup()
+    bob.forward(40)
+
+
 for letra in palavra:
     if letra == "a":
         a()
@@ -542,3 +547,5 @@ for letra in palavra:
         y()
     elif letra == "z":
         z()
+    elif letra == " ":
+        esp()
