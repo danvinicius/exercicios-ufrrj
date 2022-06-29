@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exericio 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Exercício 3</h1>
+    <span id="display-3"></span>
+
+    <!-- Sequencia de fibonacci -->
+    <input
+      type="text"
+      id="fibonacci-input"
+      placeholder="Sequência de Fibonaccci"
+    />
+    <button class="btn" onclick="fibonacci()">Sequencia de Fibonacci</button>
+
+    <!-- Numero perfeito -->
+    <div>
+      <input
+        type="text"
+        id="min-perfect-number-input"
+        placeholder="Início do intervalo"
+      />
+      <input
+        type="text"
+        id="max-perfect-number-input"
+        placeholder="Fim do intervalo"
+      />
+    </div>
+    <button class="btn" onclick="calculatePerfectNumbers()">
+      Verificar todos os números perfeitos
+    </button>
+
+    <!-- Numero primo -->
+    <input type="text" id="is-prime-input" placeholder="Número primo" />
+    <button class="btn" onclick="isPrime()">Verificar se é primo</button>
+
+    <!-- Fatorial -->
+    <input type="text" id="factorial-input" placeholder="Fatorial" />
+    <button class="btn" onclick="calculateFactorial()">Fatorial</button>
+
+    <!-- Forma triangulo -->
+    <div>
+      <input type="text" id="triangle-a-input" placeholder="lado A" />
+      <input type="text" id="triangle-b-input" placeholder="lado B" />
+      <input type="text" id="triangle-c-input" placeholder="lado C" />
+    </div>
+    <button class="btn" onclick="triangle()">
+      Verificar se formam um triângulo
+    </button>
+
+    <!-- Multiplica matrizes
+    <div>
+      <input
+        type="text"
+        id="multiply-matrices-a-input"
+        placeholder="Primeira matriz. Ex: 4 5 9"
+      />
+      <input
+        type="text"
+        id="multiply-matrices-b-input"
+        placeholder="Segunda matriz. Ex: 2 8 7"
+      />
+    </div>
+    <button class="btn" onclick="multiplyMatrices()">
+      Multiplicar matrizes
+    </button> -->
+
+    <!-- Valida CPF -->
+    <input type="text" id="validate-cpf-input" placeholder="Digite o CPF" />
+    <button class="btn" onclick="validateCpf()">Validar CPF</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>
